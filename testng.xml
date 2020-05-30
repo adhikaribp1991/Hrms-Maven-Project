@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.hrms.testcases.LoginPageValidation"/>
+      <class name="com.hrms.testcases.LoginPageValidationHW"/>
+      <class name="com.hrms.testcases.AddEmployeeValidationTest"/>
+      <class name="com.hrms.testcases.DashBoardPageValidationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
